@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ##### navbar style start */
+.collapse ul{
+    list-style-type: none;
+}  
+.collapse ul i{
+    font-size: 1.2rem;
+} 
+.collapse ul :hover{
+    background-color: rgb(250, 116, 138);
+    color: #000;
+}     
+/* ###################################  slider start  ################################# */
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0.7;
+}
+.carousel-caption{
+    top:30%;
+}
+.carousel-caption h5{
+    font-size: 3.5rem;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+.carousel-caption p{
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+.slider-btn {
+     margin-top: 3rem;
+   
+}
+.slider-btn button{   
+    padding: 10px 20px ;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    background:#5af4fc;
+    border: none;
+}
+.slider-btn button:hover{
+    background-color: #129ca3;
+    color: rgb(8, 8, 8);
+}
+/* ############################# slider complete ########################### */
+.card img{
+    width: 100%; 
+    border-radius: 50px;
+}
+/* ########################### slider complete ################################ */
+#top{
+    background-color: #5af4fc;
+}
+#border {
+    border: 3px solid #fff;
+}
+#cake-icon{
+    font-size: 70px;
+    margin: 3rem;
+}
+
+ /*  ########################### cake logo secction complete  ############################# */
+#container img{
+    box-shadow: 1px 1px 3px #aaaaaa;
+}
+.icon{
+    font-size: 25px;
+    padding: 10px 15px;
+    text-align: center;
+}
+  /* ############### image section complete ################ */
+.team{
+    background:rgb(255, 145, 164);
+
+}
+.team .member{
+   position: relative;
+   padding: 30px;
+   box-shadow: 0px 2px 5px black;
+   border-radius: 5px;
+   background:rgb(255, 145, 164);
+}
+.team .member .tempic{
+    overflow: hidden;
+    width: 180px;
+    border-radius: 50px;
+}
+.team .member .member-info{
+    padding-left: 30px;
+}
+.team .member h1{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #000000;
+}
+.team .member span{
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    font-weight: 500;
+}
+
+.team .member .social{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.team .member .social a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: rgb(255, 145, 164);
+}
+
+.team .member .social a i{
+     font-size: 20px;
+     margin: 0 2px;
+}
+.team .member .social a+a{
+    margin-left: 8px;
+}
+section{
+    padding: 50px;
+    overflow: hidden;
+}
+
+/* ########################## clients section complete  ################################3 */
+#tbl-caption{
+    width: 30%;
+    height: 100%;
+    padding: 30px;
+    border-radius: 20px;
+    background: #c2c2c2;
+}
+#tbl-caption h2{
+    margin-top: 5%;
+}
+@media only screen and (max-width: 480px) {
+    #tbl-caption {
+      padding: 10px ;
+    }
+    #tbl-caption  h2 {
+      font-size: 16px; 
+    }
+    #tbl-caption p {
+      font-size: 11px;
+    }
+    #tbl-caption h5 {
+      font-size: 11px;
+    }
+  }
+  
+  @media only screen and (max-width: 700px) {
+    #tbl-caption {
+      padding: 10px ;
+    }
+    #tbl-caption  h2 {
+      font-size: 16px; 
+    }
+    #tbl-caption p {
+      font-size: 11px;
+    }
+    #tbl-caption h5 {
+      font-size: 11px;
+    }
+  }
+  
+@media (max-width: 767px) {
+    .text-content.container-md.text-info.text-center {
+      padding: 20px;
+    }
+    .text-content.container-md.text-info.text-center h2 {
+      font-size: 24px;
+    }
+    .text-content.container-md.text-info.text-center p {
+      font-size: 16px;
+    }
+    .text-content.container-md.text-info.text-center h5 {
+      font-size: 18px;
+    }
+  }
+  
+/* ################################### table caption end ################################ */
+
+#section---main{
+     background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./images/section.jpg);
+     width: 80%;
+    padding: 20%;
+    margin:10%;
+    background-color: #000;
+    border-radius: 10px;
+}
+#input #newsletter1{
+    padding: 15px 20px;
+    border-radius: 30px;
+    opacity: 0.85;
+    color: #fff;
+    background: rgba(0,0,0,0.2);
+}
+#newsletter1::placeholder{
+    color: #f5eded;
+}
+#input .btn{
+    background-color: #5fcac7;
+    color: white;
+    margin-left: 1rem;
+    border-radius: 30px;
+    padding: 10px 40px;
+}
+.icon-sec{
+    margin: 5%;
+}
+.icon-sec a i{
+    padding: 1rem;
+     font-size:22px;
+     margin-top: 5%;
+} 
+/* #########################   Footer  #####################################*/
+#ftr{
+    margin-top: 1%;
+}
+.outer{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.main-one ul li a{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* ##################################### End ########################################### */
